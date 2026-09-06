@@ -4,9 +4,8 @@
 &lt;p&gt;&lt;strong&gt;The Bridge Thesis&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading="lazy" src="../method/method_assests/empty-medieval-bridge.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;AI tools applied to chaotic (CMM L1) processes produce chaotic results faster. The DBJ Method ensures your organisation achieves the architectural clarity needed to deploy AI with precision and governance. CMM Level 3 is the minimum threshold for responsible AI integration. CMM Level 5 — the optimising state — is where AI becomes a continuous improvement engine.&lt;/p&gt;</description></item><item><title>Capability Maturity Model</title><link>https://method.dbj.org/entrance/section-02.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-02.html</guid><description>&lt;p&gt;&lt;a href="section-01.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-03.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="precursor-capability-maturity-model"&gt;Precursor: Capability Maturity Model&lt;/h1&gt;
-&lt;p&gt;&lt;img loading="lazy" src="../method/method_assests/why-cmm-intro-sketch.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://method.dbj.org/method/cmm/"&gt;DBJ CMM&lt;/a&gt; is TOGAF CMM tailored for a small to medium sized businesses.&lt;/p&gt;
+&lt;h1 id="entry-ticket-required-before-entering-the-second-part-of-the-model"&gt;Entry ticket required before entering the second part of the model&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://method.dbj.org/method/cmm/"&gt;DBJ CMM&lt;/a&gt; is TOGAF CMM tailored for businesses. All roles, but architects. They already know the &lt;a href="https://method.dbj.org/kb/togaf/togaf-architecture-capability-framework-components-and-benefits.html#architecture-maturity-models"&gt;complex CMM , designed for teams of architects&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;DBJ CMM defines five levels of organisational maturity. The DBJ Method uses this scale to measure and grow your Enterprise Architecture practice.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -49,7 +48,8 @@
 &lt;td&gt;Destination&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>DBJ ADM</title><link>https://method.dbj.org/entrance/section-06.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-06.html</guid><description>&lt;p&gt;&lt;a href="section-05.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-07.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
+&lt;/table&gt;
+&lt;p&gt;Basically this is where we train premiership league teams. Into qualified navigators of the AI enabled business.&lt;/p&gt;</description></item><item><title>DBJ ADM</title><link>https://method.dbj.org/entrance/section-06.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-06.html</guid><description>&lt;p&gt;&lt;a href="section-05.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-07.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id="the-wheel-dbj-adm"&gt;The Wheel: DBJ ADM&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://method.dbj.org/method/adm/"&gt;DBJ ADM&lt;/a&gt; is the TOGAF ADM cut down to what an organization without a
 dedicated architecture team can actually sustain.&lt;/p&gt;
@@ -209,9 +209,9 @@ and it makes knowledge findable twice.&lt;/p&gt;</description></item><item><titl
 &lt;!-- # The DBJ Method --&gt;
 &lt;p&gt;A pragmatic, right-sized adaptation of TOGAF that makes Enterprise Architecture actionable for growing companies — without the overhead of a full TOGAF implementation.&lt;/p&gt;
 &lt;h2 id="what-is-togaf"&gt;What is TOGAF?&lt;/h2&gt;
-&lt;p&gt;TOGAF (The Open Group Architecture Framework) is the world&amp;rsquo;s leading EA framework. It provides a structured method — the Architecture Development Method (ADM) — for designing, planning, implementing, and governing enterprise IT architecture.&lt;/p&gt;
-&lt;p&gt;Think of TOGAF as a public library of Enterprise Architecture. Complex and often overwhelming for organisations that have not yet established formal EA practices. The DBJ Method solves this.&lt;/p&gt;</description></item><item><title>The Three Method Domains</title><link>https://method.dbj.org/entrance/section-03.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-03.html</guid><description>&lt;p&gt;&lt;a href="section-02.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-04.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id="the-three-domains-op-model"&gt;The Three Domains OP Model&lt;/h1&gt;
+&lt;p&gt;TOGAF (&lt;a href="https://www.opengroup.org/togaf"&gt;The Open Group Architecture Framework&lt;/a&gt;) is the world&amp;rsquo;s leading EA framework. It also provides a structured method — the &lt;a href="https://en.wikipedia.org/wiki/TOGAF#Architecture_Development_Method"&gt;Architecture Development Method&lt;/a&gt; (ADM) — for designing, planning, implementing, and governing enterprise IT architecture.&lt;/p&gt;
+&lt;p&gt;Think of TOGAF as a public library of Enterprise Architecture. TOGAF is complex and often overwhelming for organizations that have not yet established formal EA practices. The DBJ Method hides the TOGAF complexity.&lt;/p&gt;</description></item><item><title>The Three Method Domains</title><link>https://method.dbj.org/entrance/section-03.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-03.html</guid><description>&lt;p&gt;&lt;a href="section-02.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-04.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id="the-core-of-the-operating-model"&gt;The core of the Operating model&lt;/h1&gt;
 &lt;!-- ![The BPT Loop](/assets/diagrams/bpt-loop.png) --&gt;
 &lt;pre tabindex="0"&gt;&lt;code class="language-mermaid" data-lang="mermaid"&gt;flowchart LR
 subgraph BPT[&amp;#34;B-P-T Operational Model&amp;lt;br/&amp;gt;&amp;#34;]
@@ -228,41 +228,7 @@ end
 end
 B &amp;lt;--&amp;gt;|Information| P
 P &amp;lt;--&amp;gt;|Information| T
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Once CMM Level 5 is established, your organisation smoothly operates as three interconnected, collaborating domains — each with a distinct mandate.&lt;/p&gt;
-&lt;div class="callout callout-tip"&gt;
-&lt;span class="callout-label"&gt;TIP&lt;/span&gt;
-&lt;div class="callout-body"&gt;Term &amp;ldquo;Domain&amp;rdquo; is chosen by the public. Term &amp;ldquo;Segment&amp;rdquo; was quietly rejected. &amp;ldquo;Domain&amp;quot;is very overloaded term.&lt;/div&gt;
-&lt;/div&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;Business&lt;/th&gt;
-&lt;th&gt;Products&lt;/th&gt;
-&lt;th&gt;Technology&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Mandate&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Defines strategic intent. Owns the &lt;em&gt;why&lt;/em&gt; and the &lt;em&gt;what&lt;/em&gt;. Sets outcome goals, priorities, and success criteria. Commissions work and conducts final UAT.&lt;/td&gt;
-&lt;td&gt;Translates strategy into requirements. Owns the &lt;em&gt;how it works&lt;/em&gt;. Acts as the bridge between Business intent and Technology execution — and again when returning for UAT.&lt;/td&gt;
-&lt;td&gt;Builds, integrates, and operates. Owns the &lt;em&gt;how it&amp;rsquo;s built&lt;/em&gt;. Executes against Product-defined requirements, applying architecture standards and engineering rigour.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Conceptual Architecture · Strategic goal-setting · Outcome definition · Stakeholder alignment · UAT acceptance · Investment decisions&lt;/td&gt;
-&lt;td&gt;Requirements design · Logical Architecture · Backlog ownership · Domain translation · UAT coordination · Iteration management&lt;/td&gt;
-&lt;td&gt;Physical architecture · Engineering &amp;amp; delivery · Application Architecture · Integration design · Technical governance · Platform &amp;amp; tooling&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;div class="callout callout-important"&gt;
-&lt;span class="callout-label"&gt;IMPORTANT&lt;/span&gt;
-&lt;div class="callout-body"&gt;&lt;strong&gt;Key principle:&lt;/strong&gt; Domains are not silos — they are organizational units: groups of roles.&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;In smaller organisations, people often wear multiple domain hats. The DBJ Method requires that domain &lt;em&gt;thinking&lt;/em&gt; is always explicit, even when domain &lt;em&gt;roles&lt;/em&gt; overlap. And because of that:&lt;/p&gt;</description></item><item><title>Vocabulary</title><link>https://method.dbj.org/entrance/vocabulary.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/vocabulary.html</guid><description>&lt;p&gt;&lt;a href="section-07.html"&gt;← Back&lt;/a&gt; | &lt;a href="entrance_home.html"&gt;Top&lt;/a&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Once CMM Level 5 is established, your organization is ready to start to smoothly operate as three interconnected, collaborating domains; each with a distinct mandate.&lt;/p&gt;</description></item><item><title>Vocabulary</title><link>https://method.dbj.org/entrance/vocabulary.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/vocabulary.html</guid><description>&lt;p&gt;&lt;a href="section-07.html"&gt;← Back&lt;/a&gt; | &lt;a href="entrance_home.html"&gt;Top&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id="organization-vocabulary"&gt;Organization Vocabulary&lt;/h1&gt;
 &lt;p&gt;A shared vocabulary is a prerequisite for CMM Level 3. All staff should be able to understand and apply these terms.&lt;/p&gt;
 &lt;table&gt;
