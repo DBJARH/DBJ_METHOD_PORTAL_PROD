@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Entrance on DBJ.METHOD</title><link>https://method.dbj.org/entrance/index.html</link><description>Recent content in Entrance on DBJ.METHOD</description><generator>Hugo</generator><language>en-us</language><copyright>dbj.org · IP Advisory</copyright><atom:link href="https://method.dbj.org/entrance/index.xml" rel="self" type="application/rss+xml"/><item><title>Bridge to AI</title><link>https://method.dbj.org/entrance/section-05.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-05.html</guid><description>&lt;p&gt;&lt;a href="section-04.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-06.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Entrance on DBJ.METHOD</title><link>https://method.dbj.org/entrance/index.html</link><description>Recent content in Entrance on DBJ.METHOD</description><generator>Hugo</generator><language>en-us</language><copyright>dbj.org · IP Advisory</copyright><atom:link href="https://method.dbj.org/entrance/index.xml" rel="self" type="application/rss+xml"/><item><title>Bridge to AI</title><link>https://method.dbj.org/entrance/section-05-cmm-deeper.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-05-cmm-deeper.html</guid><description>&lt;p&gt;&lt;a href="section-04-bpt-deeper.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-06-adm.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
 &lt;!-- # Bridge to AI Readiness --&gt;
 &lt;p&gt;CMM maturity is the prerequisite for an organisation&amp;rsquo;s AI readiness. Without defined, managed processes, AI amplifies noise — not signal. The DBJ Method builds the bridge deliberately.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The Bridge Thesis&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading="lazy" src="../method/method_assests/empty-medieval-bridge.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;AI tools applied to chaotic (CMM L1) processes produce chaotic results faster. The DBJ Method ensures your organisation achieves the architectural clarity needed to deploy AI with precision and governance. CMM Level 3 is the minimum threshold for responsible AI integration. CMM Level 5 — the optimising state — is where AI becomes a continuous improvement engine.&lt;/p&gt;</description></item><item><title>Capability Maturity Model</title><link>https://method.dbj.org/entrance/section-02.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-02.html</guid><description>&lt;p&gt;&lt;a href="section-01.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-03.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;AI tools applied to chaotic (CMM L1) processes produce chaotic results faster. The DBJ Method ensures your organisation achieves the architectural clarity needed to deploy AI with precision and governance. CMM Level 3 is the minimum threshold for responsible AI integration. CMM Level 5 — the optimising state — is where AI becomes a continuous improvement engine.&lt;/p&gt;</description></item><item><title>Capability Maturity Model</title><link>https://method.dbj.org/entrance/section-02-cmm.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-02-cmm.html</guid><description>&lt;p&gt;&lt;a href="section-01-method.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-03-bpt.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id="entry-ticket-required-before-entering-the-second-part-of-the-model"&gt;Entry ticket required before entering the second part of the model&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://method.dbj.org/method/cmm/"&gt;DBJ CMM&lt;/a&gt; is TOGAF CMM tailored for businesses. All roles, but architects. They already know the &lt;a href="https://method.dbj.org/kb/togaf/togaf-architecture-capability-framework-components-and-benefits.html#architecture-maturity-models"&gt;complex CMM , designed for teams of architects&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;DBJ CMM defines five levels of organisational maturity. The DBJ Method uses this scale to measure and grow your Enterprise Architecture practice.&lt;/p&gt;
@@ -49,7 +49,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Basically this is where we train premiership league teams. Into qualified navigators of the AI enabled business.&lt;/p&gt;</description></item><item><title>DBJ ADM</title><link>https://method.dbj.org/entrance/section-06.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-06.html</guid><description>&lt;p&gt;&lt;a href="section-05.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-07.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Basically this is where we train premiership league teams. Into qualified navigators of the AI enabled business.&lt;/p&gt;</description></item><item><title>DBJ ADM</title><link>https://method.dbj.org/entrance/section-06-adm.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-06-adm.html</guid><description>&lt;p&gt;&lt;a href="section-05-cmm-deeper.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-07-taxonomy.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id="the-wheel-dbj-adm"&gt;The Wheel: DBJ ADM&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://method.dbj.org/method/adm/"&gt;DBJ ADM&lt;/a&gt; is the TOGAF ADM cut down to what an organization without a
 dedicated architecture team can actually sustain.&lt;/p&gt;
@@ -90,7 +90,7 @@ Business Architecture Board reviews artifacts, not conversations.&lt;/p&gt;
 &lt;div class="callout-body"&gt;The wheel authorizes delivery. It never delivers.&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;It turns only at &lt;a href="https://method.dbj.org/method/cmm/#maturity-levels"&gt;CMM Level 3&lt;/a&gt; or above. Below that,
-there is nothing to steer.&lt;/p&gt;</description></item><item><title>DBJ Taxonomy</title><link>https://method.dbj.org/entrance/section-07.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-07.html</guid><description>&lt;p&gt;&lt;a href="section-06.html"&gt;← Back&lt;/a&gt; | &lt;a href="vocabulary.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
+there is nothing to steer.&lt;/p&gt;</description></item><item><title>DBJ Taxonomy</title><link>https://method.dbj.org/entrance/section-07-taxonomy.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-07-taxonomy.html</guid><description>&lt;p&gt;&lt;a href="section-06-adm.html"&gt;← Back&lt;/a&gt; | &lt;a href="vocabulary.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The common and efficient language. The whole operations names the parts of the
 organization&amp;rsquo;s information space, and everyone uses the same names.&lt;/p&gt;
 &lt;p&gt;Simple, solid and mature. Four &lt;strong&gt;Categories&lt;/strong&gt;, each holding four &lt;strong&gt;Capabilities&lt;/strong&gt;.&lt;/p&gt;
@@ -154,37 +154,37 @@ and it makes knowledge findable twice.&lt;/p&gt;</description></item><item><titl
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;01&lt;/td&gt;
-&lt;td&gt;&lt;a href="section-01.html"&gt;The DBJ Method&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="section-01-method.html"&gt;The DBJ Method&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;What the Method is, the two stages it runs in, and how they hand off to each other&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;02&lt;/td&gt;
-&lt;td&gt;&lt;a href="section-02.html"&gt;Capability Maturity Model&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="section-02-cmm.html"&gt;Capability Maturity Model&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Five levels of organisational maturity, and why Level 3 is the gate before anything else in the Method applies&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;03&lt;/td&gt;
-&lt;td&gt;&lt;a href="section-03.html"&gt;The Three Domains&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="section-03-bpt.html"&gt;The Three Domains&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Business, Product and Technology — what each domain owns, and what it is accountable for delivering&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;04&lt;/td&gt;
-&lt;td&gt;&lt;a href="section-04.html"&gt;One Loop and the two Cycles&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="section-04-bpt-deeper.html"&gt;One Loop and the two Cycles&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;How work moves from Business to Product to Technology and back, as one continuous operating loop&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;05&lt;/td&gt;
-&lt;td&gt;&lt;a href="section-05.html"&gt;Bridge to AI&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="section-05-cmm-deeper.html"&gt;Bridge to AI&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Why maturity has to come before AI adoption, and what changes at each level as it is introduced&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;06&lt;/td&gt;
-&lt;td&gt;&lt;a href="section-06.html"&gt;DBJ ADM&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="section-06-adm.html"&gt;DBJ ADM&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;The five-step wheel that authorizes delivery work but never performs delivery itself&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;07&lt;/td&gt;
-&lt;td&gt;&lt;a href="section-07.html"&gt;DBJ Taxonomy&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="section-07-taxonomy.html"&gt;DBJ Taxonomy&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;The shared names and structure for the organisation&amp;rsquo;s information space, used without reinterpretation&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -197,7 +197,7 @@ and it makes knowledge findable twice.&lt;/p&gt;</description></item><item><titl
 &lt;!-- ![alt text](../kb/BPT_Operational_Model/engagement_architecture/simple_engagement_architecture.png) --&gt;
 &lt;!-- **Continuous operational cycle** --&gt;
 &lt;br/&gt;
-&lt;p&gt;&lt;a href="../method/method_home.html"&gt;The Method Home&lt;/a&gt;&lt;/p&gt;</description></item><item><title>The BPT Cycles</title><link>https://method.dbj.org/entrance/section-04.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-04.html</guid><description>&lt;p&gt;&lt;a href="section-03.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-05.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../method/method_home.html"&gt;The Method Home&lt;/a&gt;&lt;/p&gt;</description></item><item><title>The BPT Cycles</title><link>https://method.dbj.org/entrance/section-04-bpt-deeper.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-04-bpt-deeper.html</guid><description>&lt;p&gt;&lt;a href="section-03-bpt.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-05-cmm-deeper.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id="the-b--p--t"&gt;The B ↔ P ↔ T&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;DISAMBIGUATION&lt;/strong&gt; — &amp;ldquo;BPT Loop&amp;rdquo; and &amp;ldquo;Operating Model&amp;rdquo; are not synonyms; they are different altitudes of the same thing.&lt;/p&gt;
@@ -205,16 +205,23 @@ and it makes knowledge findable twice.&lt;/p&gt;</description></item><item><titl
 &lt;p&gt;&lt;strong&gt;Operating Model&lt;/strong&gt; describes its role in the architecture — what BPT &lt;em&gt;is&lt;/em&gt; to the organization.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id="one-flow-two-cycles"&gt;One Flow Two Cycles&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;DBJ Method Flow is made of Two Cycles chaining the B, P and T&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>The DBJ Method</title><link>https://method.dbj.org/entrance/section-01.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-01.html</guid><description>&lt;p&gt;&lt;a href="index.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-02.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DBJ Method Flow is made of Two Cycles chaining the B, P and T&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>The DBJ Method</title><link>https://method.dbj.org/entrance/section-01-method.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-01-method.html</guid><description>&lt;p&gt;&lt;a href="index.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-02-cmm.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
 &lt;!-- # The DBJ Method --&gt;
 &lt;p&gt;A pragmatic, right-sized adaptation of TOGAF that makes Enterprise Architecture actionable for growing companies — without the overhead of a full TOGAF implementation.&lt;/p&gt;
 &lt;h2 id="what-is-togaf"&gt;What is TOGAF?&lt;/h2&gt;
 &lt;p&gt;TOGAF (&lt;a href="https://www.opengroup.org/togaf"&gt;The Open Group Architecture Framework&lt;/a&gt;) is the world&amp;rsquo;s leading EA framework. It also provides a structured method — the &lt;a href="https://en.wikipedia.org/wiki/TOGAF#Architecture_Development_Method"&gt;Architecture Development Method&lt;/a&gt; (ADM) — for designing, planning, implementing, and governing enterprise IT architecture.&lt;/p&gt;
-&lt;p&gt;Think of TOGAF as a public library of Enterprise Architecture. TOGAF is complex and often overwhelming for organizations that have not yet established formal EA practices. The DBJ Method hides the TOGAF complexity.&lt;/p&gt;</description></item><item><title>The Three Method Domains</title><link>https://method.dbj.org/entrance/section-03.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-03.html</guid><description>&lt;p&gt;&lt;a href="section-02.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-04.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Think of TOGAF as a public library of Enterprise Architecture. TOGAF is complex and often overwhelming for organizations that have not yet established formal EA practices. The DBJ Method hides the TOGAF complexity.&lt;/p&gt;</description></item><item><title>The Three Method Domains</title><link>https://method.dbj.org/entrance/section-03-bpt.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/section-03-bpt.html</guid><description>&lt;p&gt;&lt;a href="section-02-cmm.html"&gt;← Back&lt;/a&gt; | &lt;a href="section-04-bpt-deeper.html"&gt;Next →&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id="the-core-of-the-operating-model"&gt;The core of the Operating model&lt;/h1&gt;
+&lt;p&gt;The whole of the organization is divided into three &amp;ldquo;domains&amp;rdquo;. Domain name reflects its role.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Business&lt;/li&gt;
+&lt;li&gt;Products&lt;/li&gt;
+&lt;li&gt;Technology&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Decoupled but acting together, in what we call &amp;ldquo;BPT Loop&amp;rdquo; constellation.&lt;/p&gt;
 &lt;!-- ![The BPT Loop](/assets/diagrams/bpt-loop.png) --&gt;
-&lt;pre tabindex="0"&gt;&lt;code class="language-mermaid" data-lang="mermaid"&gt;flowchart LR
-subgraph BPT[&amp;#34;B-P-T Operational Model&amp;lt;br/&amp;gt;&amp;#34;]
+&lt;pre tabindex="0"&gt;&lt;code class="language-mermaid" data-lang="mermaid"&gt;flowchart
+subgraph BPT[&amp;#34;Organization under B-P-T Operational Model&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;#34;]
 direction LR
 subgraph B[&amp;#34;Business&amp;lt;br&amp;gt;Domain&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;#34;]
 direction TB
@@ -226,9 +233,9 @@ subgraph T[&amp;#34;Technology&amp;lt;br&amp;gt;Domain&amp;lt;br&amp;gt;&amp;lt;
 direction TB
 end
 end
-B &amp;lt;--&amp;gt;|Information| P
-P &amp;lt;--&amp;gt;|Information| T
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Once CMM Level 5 is established, your organization is ready to start to smoothly operate as three interconnected, collaborating domains; each with a distinct mandate.&lt;/p&gt;</description></item><item><title>Vocabulary</title><link>https://method.dbj.org/entrance/vocabulary.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/vocabulary.html</guid><description>&lt;p&gt;&lt;a href="section-07.html"&gt;← Back&lt;/a&gt; | &lt;a href="entrance_home.html"&gt;Top&lt;/a&gt;&lt;/p&gt;
+B &amp;lt;--&amp;gt;|Domain&amp;lt;br/&amp;gt;Iterations| P
+P &amp;lt;--&amp;gt;|Domain&amp;lt;br/&amp;gt;Iterations| T
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;It is as simple as that. The &amp;ldquo;core of the trick&amp;rdquo; is to follow this simple concept when adding details to it.&lt;/p&gt;</description></item><item><title>Vocabulary</title><link>https://method.dbj.org/entrance/vocabulary.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/entrance/vocabulary.html</guid><description>&lt;p&gt;&lt;a href="section-07-taxonomy.html"&gt;← Back&lt;/a&gt; | &lt;a href="entrance_home.html"&gt;Top&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id="organization-vocabulary"&gt;Organization Vocabulary&lt;/h1&gt;
 &lt;p&gt;A shared vocabulary is a prerequisite for CMM Level 3. All staff should be able to understand and apply these terms.&lt;/p&gt;
 &lt;table&gt;
