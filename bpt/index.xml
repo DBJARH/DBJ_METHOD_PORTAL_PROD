@@ -1,40 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>The Three Method Domains on DBJ.METHOD</title><link>https://method.dbj.org/bpt/index.html</link><description>Recent content in The Three Method Domains on DBJ.METHOD</description><generator>Hugo</generator><language>en-us</language><copyright>dbj.org · IP Advisory</copyright><atom:link href="https://method.dbj.org/bpt/index.xml" rel="self" type="application/rss+xml"/><item><title>BPT Operational Concepts</title><link>https://method.dbj.org/bpt/bpt_op_concepts.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/bpt/bpt_op_concepts.html</guid><description>&lt;h3 id="uat"&gt;UAT&lt;/h3&gt;
-&lt;p&gt;We are observing UAT phase for one product of many, lets call it &amp;ldquo;P(X)&amp;rdquo;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;P ↔ T cycle: Technology signals P(X) readiness for UAT. After some time feedback arrives on the outcome. That is also the result of Business feedback from step 2 bellow.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex="0"&gt;&lt;code class="language-mermaid" data-lang="mermaid"&gt;flowchart LR
-P(Products) --&amp;gt;|&amp;#34;2:P(X) UAT Outcome&amp;#34;| T(Technology)
-T(Technology) --&amp;gt;|&amp;#34;1:Ready for P(X) UAT&amp;#34;| P(Products)
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start="2"&gt;
-&lt;li&gt;B ↔ P cycle: P reports on UAT result to the business. Business manages the report and sends a decision back to Products&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex="0"&gt;&lt;code class="language-mermaid" data-lang="mermaid"&gt;flowchart LR
-B(Business) --&amp;gt;|&amp;#34;2: P(X) UAT Decision&amp;#34;| P(Products)
-P --&amp;gt;|&amp;#34;1: P(X) UAT Report&amp;#34;| B
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="deployment"&gt;Deployment&lt;/h3&gt;
-&lt;div class="callout callout-important"&gt;
-&lt;span class="callout-label"&gt;IMPORTANT&lt;/span&gt;
-&lt;div class="callout-body"&gt;Technology method domain does the product release and deployment to the organization IT Landscape&lt;/div&gt;
-&lt;/div&gt;
-&lt;pre tabindex="0"&gt;&lt;code class="language-mermaid" data-lang="mermaid"&gt;flowchart LR
-T(Technology) --&amp;gt;|1:Deploy| I(IT Landscape)
-I --&amp;gt;|2:Status| T(Technology)
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="termination--continuation"&gt;Termination / Continuation&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;P ↔ T cycle: After Product has signaled start of the deployment to the production, Technology signals P(X) deployment to production. After some time Products signals the start of P(X) project archival. That is also the result of Business feedback from step 2 bellow.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex="0"&gt;&lt;code class="language-mermaid" data-lang="mermaid"&gt;flowchart LR
-P(Products) --&amp;gt;|&amp;#34;2:Archive P(X)&amp;#34;| T(Technology)
-T(Technology) --&amp;gt;|&amp;#34;1:P(X) Deployed to PROD&amp;#34;| P(Products)
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start="2"&gt;
-&lt;li&gt;B ↔ P cycle: Business with Products manages the reasons of continuation or termination of P(X) projects&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex="0"&gt;&lt;code class="language-mermaid" data-lang="mermaid"&gt;flowchart LR
-B(Business) --&amp;gt;|&amp;#34;2: P(X) is OK to Archive&amp;#34;| P(Products)
-P --&amp;gt;|&amp;#34;1: P(X) Deployed to PROD&amp;#34;| B
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="larger-organizations-business-domain-form-the-business-initiatives"&gt;Larger Organizations: Business Domain form the Business Initiatives&lt;/h2&gt;
-&lt;p&gt;Larger organizations can manage several products in the same time. Several &lt;code&gt;B ↔ P ↔ T&lt;/code&gt; Flows. One per one product.&lt;/p&gt;</description></item><item><title>BPT Runtime</title><link>https://method.dbj.org/bpt/bp_runtime.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/bpt/bp_runtime.html</guid><description>The BPT domains at runtime — what contains what, and how many of each</description></item><item><title>The B ↔ P ↔ T Operating Model</title><link>https://method.dbj.org/bpt/bpt_operating_model.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/bpt/bpt_operating_model.html</guid><description>Business, Product, Technology — the DBJ Operating Model governing continuous delivery.</description></item><item><title>The BPT Cycles</title><link>https://method.dbj.org/bpt/chapter-bpt-deeper.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/bpt/chapter-bpt-deeper.html</guid><description>&lt;h1 id="the-b--p--t"&gt;The B ↔ P ↔ T&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>The Three Method Domains on DBJ.METHOD</title><link>https://method.dbj.org/bpt/index.html</link><description>Recent content in The Three Method Domains on DBJ.METHOD</description><generator>Hugo</generator><language>en-us</language><copyright>dbj@dbj.org · IP Advisory</copyright><atom:link href="https://method.dbj.org/bpt/index.xml" rel="self" type="application/rss+xml"/><item><title>BPT Exceptions</title><link>https://method.dbj.org/bpt/bpt_exceptions.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/bpt/bpt_exceptions.html</guid><description>The event thrown when work received does not match what was asked for — and how it cascades back to its true origin</description></item><item><title>BPT Operational Concepts</title><link>https://method.dbj.org/bpt/bpt_op_concepts.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/bpt/bpt_op_concepts.html</guid><description>The recurring events of a running loop — UAT, deployment, termination or continuation</description></item><item><title>BPT Runtime</title><link>https://method.dbj.org/bpt/bpt_runtime.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/bpt/bpt_runtime.html</guid><description>The BPT domains at runtime — what contains what, and how many of each</description></item><item><title>Business Decision Records (BDR)</title><link>https://method.dbj.org/bpt/bdr.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/bpt/bdr.html</guid><description>The business-side twin of the ADR — a note that says why a business made a call</description></item><item><title>The B ↔ P ↔ T Operating Model</title><link>https://method.dbj.org/bpt/bpt_operating_model.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/bpt/bpt_operating_model.html</guid><description>Business, Product, Technology — the DBJ Operating Model governing continuous delivery.</description></item><item><title>The BPT Cycles</title><link>https://method.dbj.org/bpt/bpt_cycles.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://method.dbj.org/bpt/bpt_cycles.html</guid><description>&lt;h1 id="the-b--p--t"&gt;The B ↔ P ↔ T&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;DISAMBIGUATION&lt;/strong&gt; — &amp;ldquo;BPT Loop&amp;rdquo; and &amp;ldquo;Operating Model&amp;rdquo; are not synonyms; they are different altitudes of the same thing.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;BPT Loop&lt;/strong&gt; describes the mechanism — the endless Business · Product · Technology cycle.&lt;/p&gt;
