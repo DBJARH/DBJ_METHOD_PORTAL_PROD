@@ -1,0 +1,180 @@
+# dbj_method.toml - canonical definitions of the DBJ Method.
+# One definition, one place. Chapters render these; nobody copies them.
+# Published verbatim at https://method.dbj.org/dbj_method.toml
+#
+# Addressing: every definition has a dotted key path, e.g. bpt.domain.technology.mandate
+# Where sequence matters, the item carries an explicit "order".
+
+[meta]
+version = "0.1"
+rule    = "Names below are official vocabulary. No synonyms, no reinterpretation."
+method  = "How a company organises its products factory."
+
+# ---------------- TAXONOMY ----------------
+[taxonomy]
+definition = "Hierarchy that gives both the structure and the naming of the organisation's information space. The common language of the organisation."
+schema     = "Two levels, four by four. First level: Category. Second level: Capability. The schema is the invariant; the Core Taxonomy is one naming of it."
+scope      = "Does not define what the organisation does or produces."
+
+[taxonomy.category.conceptual]
+order        = 1
+name         = "Conceptual"
+capabilities = ["Business", "Information", "Application", "Technology"]
+
+[taxonomy.category.logical]
+order        = 2
+name         = "Logical"
+capabilities = ["Data Management", "Integration", "Platform", "Security"]
+
+[taxonomy.category.physical]
+order        = 3
+name         = "Physical"
+capabilities = ["Compute", "Infrastructure", "Network", "Storage"]
+
+[taxonomy.category.implementation]
+order        = 4
+name         = "Implementation"
+capabilities = ["Deployment", "Development", "Monitoring", "Operations"]
+
+# ---------------- CMM ----------------
+[cmm]
+definition = "DBJ Capability Maturity Model. Mirrors the TOGAF CMM (same scale), applied to the whole organisation instead of the EA practice."
+elements   = [
+  "Governance",
+  "Skilled Resource Pool",
+  "Projects / Portfolios",
+  "Business Operations",
+  "Architecture Repository",
+]
+element_assessment    = "Each element scored independently on L0-L5. The element assessment is the minimum of the five."
+required              = "L5 across all five elements. No lower gate."
+entry_ticket          = "Personal. Proof of a passed DBJ CMM L5 exam. No one works inside BPT, or on a DBJ ADM wheel, without it."
+organisation_maturity = "Sum of the domain teams' maturities; a team's maturity is the sum of its people's maturities."
+
+[cmm.level.l0]
+togaf   = "M0"
+name    = "None"
+meaning = "No recognizable structure in this element"
+
+[cmm.level.l1]
+togaf   = "M1"
+name    = "Initial"
+meaning = "Activity exists but is ad-hoc and person-dependent"
+
+[cmm.level.l2]
+togaf   = "M2"
+name    = "Under Development"
+meaning = "Processes being defined; inconsistently applied"
+
+[cmm.level.l3]
+togaf   = "M3"
+name    = "Defined"
+meaning = "Documented, standardized, consistently followed"
+
+[cmm.level.l4]
+togaf   = "M4"
+name    = "Managed"
+meaning = "Measured, monitored, actively controlled"
+
+[cmm.level.l5]
+togaf   = "M5"
+name    = "Optimising"
+meaning = "Continuous improvement embedded in normal operation"
+
+# ---------------- ADM ----------------
+[adm]
+definition       = "DBJ ADM. Simplified TOGAF ADM: five steps around Requirements Management at the hub. Business is in the driving seat. Its outputs are architectural (decisions, principles, constraints, blueprints), never deployed systems."
+deliverable_rule = "Each step produces exactly one deliverable, named as the step. All five must exist and be signed off before a cycle closes."
+versioning       = "The whole-number part of a document version is the cycle number. 1.0 = first cycle closed."
+
+[adm.step.strategy_and_motivation]
+order       = 1
+name        = "Strategy & Motivation"
+taxonomy    = "conceptual"
+deliverable = "Constraints and non-negotiables that govern the entire wheel"
+
+[adm.step.business]
+order       = 2
+name        = "Business"
+taxonomy    = "conceptual"
+deliverable = "Business case, scope, and stakeholder sign-off"
+
+[adm.step.application]
+order       = 3
+name        = "Application"
+taxonomy    = "logical"
+deliverable = "Logical architecture: information systems and their interfaces"
+
+[adm.step.technology]
+order       = 4
+name        = "Technology"
+taxonomy    = "physical"
+deliverable = "Physical architecture: infrastructure, platforms, and deployment topology"
+
+[adm.step.implementation]
+order       = 5
+name        = "Implementation"
+taxonomy    = "implementation"
+deliverable = "Approved path forward, sequencing, cost, and governance sign-off"
+
+# ---------------- BPT ----------------
+[bpt]
+definition   = "One production line of the factory: three decoupled domains, Business, Products, Technology, running in parallel and exchanging information asynchronously (the BPT Loop)."
+one_bpt      = "There is always exactly one BPT. Multiplicity comes from expanding domains vertically (initiatives, products, projects)."
+wheel        = "Each domain contains one DBJ ADM wheel. Each wheel delivers five deliverables."
+traceability = "Every deliverable is traceable to the domain it originated from. Domain association is always explicit, even where roles overlap."
+slogan       = "Product unifies; Loop validates."
+
+[bpt.domain.business]
+order   = 1
+name    = "Business"
+mandate = "Defines strategic intent. Owns the why and the what. Commissions work and conducts final UAT."
+
+[bpt.domain.products]
+order   = 2
+name    = "Products"
+mandate = "Translates strategy into requirements. Owns the how it works. Bridge between Business intent and Technology execution."
+
+[bpt.domain.technology]
+order   = 3
+name    = "Technology"
+mandate = "Builds, integrates, and operates. Owns the how it is built."
+
+[bpt.product]
+definition  = "Whatever the Business declares and Technology implements: software, service, documentation, process description, a physical book."
+description = "Fully described by 3 x 5 = 15 deliverables: three domains, one wheel each, five deliverables per wheel."
+
+[bpt.cycle]
+definition = "The exchange between two adjacent domains."
+closure    = "A cycle is satisfied when the two adjacent domains agree. What is agreed depends on the domains and the kind of Product."
+
+[bpt.cycle.one]
+order   = 1
+between = ["business", "products"]
+
+[bpt.cycle.two]
+order   = 2
+between = ["products", "technology"]
+
+[bpt.stream.require]
+order  = 1
+name   = "Require"
+intent = "Business declares product needs"
+
+[bpt.stream.develop]
+order  = 2
+name   = "Develop"
+intent = "Technology builds to product specifications"
+
+[bpt.stream.deploy]
+order  = 3
+name   = "Deploy"
+intent = "Product is released into operations"
+
+[bpt.stream.evaluate]
+order  = 4
+name   = "Evaluate"
+intent = "Measure outcomes against business objectives; feed back into the next cycle"
+
+[bpt.domain_lead]
+definition = "Role each domain appoints, responsible for architecture decisions within the domain scope. Co-owns BPT cycle governance."
