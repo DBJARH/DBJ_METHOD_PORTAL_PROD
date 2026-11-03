@@ -8,7 +8,7 @@
 [meta]
 version = "0.1"
 rule    = "Official vocabulary. No synonyms, no reinterpretation. Keywords."
-method  = "Products factory delivering at the speed of AI"
+method  = "DBJ Product Factory delivering at the speed of AI"
 
 # ---------------- TAXONOMY ----------------
 [taxonomy]
@@ -38,7 +38,7 @@ capabilities = ["Deployment", "Development", "Monitoring", "Operations"]
 
 # ---------------- CMM ----------------
 [cmm]
-definition = "DBJ Capability Maturity Model. Encapsulates the TOGAF CMM (same scale). Covers the whole organisation; no just the architectural roles."
+definition = "DBJ Capability Maturity Model. Encapsulates the TOGAF CMM (same scale). Covers the whole organisation; not just the architectural roles."
 elements   = [
   "Governance",
   "Skilled Resource Pool",
@@ -84,7 +84,7 @@ meaning = "Continuous improvement embedded in normal operation"
 
 # ---------------- ADM ----------------
 [adm]
-definition       = "DBJ ADM. Encapsulates TOGAF ADM: five steps around Requirements Management at the hub. Business is in the driving seat. Outputs are architectural content(decisions, principles, constraints, blueprints), not deployed systems. Present in each domain. Decoupled cycling. Agile."
+definition       = "DBJ ADM. Encapsulates TOGAF ADM: five steps around Requirements Management at the hub. Business is in the driving seat. Outputs are architectural content (decisions, principles, constraints, blueprints), not deployed systems. Present in each domain. Decoupled cycling. Agile."
 deliverable_rule = "Each step produces exactly one deliverable, by the same name. All five must co-exist and be signed off before a cycle closes."
 versioning       = "The whole-number part of a document version is the cycle number. 1.0 = first cycle closed."
 
@@ -120,7 +120,7 @@ deliverable = "Approved path forward, sequencing, cost, and governance sign-off"
 
 # ---------------- BPT ----------------
 [bpt]
-definition   = "One production line pre product of the products factory: three decoupled domains, Business, Products, Technology, cycling in parallel and exchanging information asynchronously (the BPT Loop)."
+definition   = "One production line per Product of the DBJ Product Factory: three decoupled domains, Business, Products, Technology, cycling in parallel and exchanging information asynchronously (the BPT Loop)."
 one_bpt      = "One product == one production line == one BPT. An organisation can have 1 to N BPTs. Scalability is vertical, per domain, when required. A DBJ ADM wheel accommodates teams from 2 to N."
 wheel        = "Each domain contains one DBJ ADM wheel. Each wheel delivers five deliverables."
 traceability = "Every deliverable is traceable to the domain it originated from. Domain association is always explicit, even where roles overlap. Issue origin must be preserved."
@@ -166,7 +166,7 @@ between = ["business", "products"]
 [bpt.stream.develop]
 order  = 2
 name   = "Develop"
-intent = "Information for Technology to builds to product specifications"
+intent = "Information for Technology to build to product specifications"
 between = ["products", "technology"]
 
 [bpt.stream.deploy]
@@ -183,3 +183,7 @@ between = ["business", "products"]
 
 [bpt.domain_lead]
 definition = "Role each domain appoints, responsible for architecture decisions within the domain scope. Co-owns BPT cycle governance."
+
+[bpt.factory]
+definition = "DBJ Product Factory. The organisation adopting the DBJ Method, seen as a factory of Products: N production lines, one per Product. Each production line is one BPT (see bpt.one_bpt)."
+scaling    = "Horizontal: one BPT is added per Product. Vertical scaling, per domain, is defined in bpt.one_bpt."
