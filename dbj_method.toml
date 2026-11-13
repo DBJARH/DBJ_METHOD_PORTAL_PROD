@@ -6,9 +6,9 @@
 # Where sequence matters, the item carries an explicit "order".
 
 [meta]
-version = "0.1"
+version = "0.2"
 rule    = "Official vocabulary. No synonyms, no reinterpretation. Keywords."
-method  = "DBJ Product Factory delivering at the speed of AI"
+method  = "Operational Method used by DBJ Product Factory. Delivering at the speed of AI"
 
 # ---------------- TAXONOMY ----------------
 [taxonomy]
@@ -48,43 +48,49 @@ elements   = [
 ]
 element_assessment    = "Each element scored independently on Level 0 (L0) to Level 5 (L5)."
 starting               = "L3"
-required              = "L5 across all five elements."
-entry_ticket          = "Personal proof of a passed DBJ CMM L5 exam. No one works inside BPT, or on a DBJ ADM wheel, without L5 Pass."
+required              = "L5 across all five elements. An engagement may start at L3 by negotiation."
+entry_ticket          = "Personal proof of a passed DBJ CMM \"L exam\". One ticket, not one per level. No one works inside BPT, or on a DBJ ADM wheel, without it."
 organisation_maturity = "Aiming for L5. Sum of the domain teams' maturities; a team's maturity is the sum of its people's maturities."
 
 [cmm.level.l0]
 togaf   = "M0"
+level   = "L0"
 name    = "None"
 meaning = "No recognizable structure in this element"
 
 [cmm.level.l1]
 togaf   = "M1"
+level   = "L1"
 name    = "Initial"
 meaning = "Activity exists but is ad-hoc and person-dependent"
 
 [cmm.level.l2]
 togaf   = "M2"
+level   = "L2"
 name    = "Under Development"
 meaning = "Processes being defined; inconsistently applied"
 
 [cmm.level.l3]
 togaf   = "M3"
+level   = "L3"
 name    = "Defined"
 meaning = "Documented process, standardized, consistently followed"
 
 [cmm.level.l4]
 togaf   = "M4"
+level   = "L4"
 name    = "Managed"
 meaning = "Measured, monitored, actively controlled process"
 
 [cmm.level.l5]
 togaf   = "M5"
+level   = "L5"
 name    = "Optimising"
 meaning = "Continuous improvement embedded in normal operation"
 
 # ---------------- ADM ----------------
 [adm]
-definition       = "DBJ ADM. Encapsulates TOGAF ADM: five steps around Requirements Management at the hub. Business is in the driving seat. Outputs are architectural content (decisions, principles, constraints, blueprints), not deployed systems. Present in each domain. Decoupled cycling. Agile."
+definition       = "DBJ ADM. Iteration of Five steps around Requirements Management at the hub. Business is in the driving seat. Outputs are architectural content (decisions, principles, constraints, blueprints), not deployed systems. Present in each domain. Decoupled cycling. Agile."
 deliverable_rule = "Each step produces exactly one deliverable, by the same name. All five must co-exist and be signed off before a cycle closes."
 versioning       = "The whole-number part of a document version is the cycle number. 1.0 = first cycle closed."
 
@@ -120,33 +126,40 @@ deliverable = "Approved path forward, sequencing, cost, and governance sign-off"
 
 # ---------------- BPT ----------------
 [bpt]
-definition   = "One production line per Product of the DBJ Product Factory: three decoupled domains, Business, Products, Technology, cycling in parallel and exchanging information asynchronously (the BPT Loop)."
-one_bpt      = "One product == one production line == one BPT. An organisation can have 1 to N BPTs. Scalability is vertical, per domain, when required. A DBJ ADM wheel accommodates teams from 2 to N."
-wheel        = "Each domain contains one DBJ ADM wheel. Each wheel delivers five deliverables."
+definition   = "One production line per Product : three decoupled domains, Business, Product, Technology, cycling in parallel and exchanging information asynchronously (the BPT Loop)."
+planning     = "Organization planning is external to the Factory. BPT Business domain can link to the Organization planning."
+initiative   = "Business Initiative is Artifact of organization planning. One Initiative can result in two or more products. BPT Business domain develops exactly one product. If there is one it links to the Business Item deliverable of the Organization Planning."
+one_bpt      = "One product == one production line == one BPT instance. One organisation can host 1 to N BPT instances."
+wheel        = "Each domain contains one DBJ ADM wheel. Each wheel delivers exactly five deliverables. Five per each rotation."
 traceability = "Every deliverable is traceable to the domain it originated from. Domain association is always explicit, even where roles overlap. Issue origin must be preserved."
+bdr          = "Business Decision Record. Captures a Business-domain decision and its rationale, so Technology and Product can trace commitments back to their origin."
 slogan       = "Product unifies; Loop validates."
+
+[bpt.factory]
+definition = "DBJ Product Factory is made of 1 .. N BPT Instances. One organization hosts one Product Factory."
+scaling    = "Horizontal: one BPT instance is added per one Product."
 
 [bpt.domain.business]
 order   = 1
 name    = "Business"
-mandate = "Defines strategic intent. Owns the why of each initiative. Commissions work and conducts final approval."
+mandate = "Develops one product, usually the outcome of the organization planning. Defines strategic intent. Owns the WHY questions and answers. Commissions work and conducts final approval. if used by the organization, BDRs are managed here"
 
 [bpt.domain.products]
 order   = 2
-name    = "Products"
-mandate = "From WHY to WHAT. Translates strategy into requirements. Business workflows. Owns the how. Bridge between Business intent and Technology execution."
+name    = "Product"
+mandate = "From WHY to WHAT. Translates Business domain information into requirements. Business Analyst (BA) is a recommend role in this domain. Business workflows are recommended tools. Products domain owns the how. Logical Bridge between Business intent and Technology execution."
 
 [bpt.domain.technology]
 order   = 3
 name    = "Technology"
-mandate = "The HOW. Builds, integrates, and deploys. Maintenance of the product lifecycle."
+mandate = "The HOW. Builds, integrates, and deploys the single product. Plans and manages the Maintenance of the product lifecycle. Maintains a simple ADM and 5 deliverables as preferred information used in the Product domain communications."
 
 [bpt.product]
 definition  = "Whatever the Business declares and Technology implements: software, service, documentation, process description, a physical book, a company event management process or manual."
 description = "Fully described by 3 domains x 5 = 15 deliverables: three domains, one ADM each, five deliverables per ADM."
 
 [bpt.cycle]
-definition = "The information iteration between two adjacent domains."
+definition = "The iteration between two adjacent domains. Uses ADMs deliverables."
 closure    = "A cycle is satisfied when the two adjacent domains agree. What is agreed depends on the domains and the kind of Product."
 
 [bpt.cycle.one]
@@ -160,7 +173,7 @@ between = ["products", "technology"]
 [bpt.stream.require]
 order  = 1
 name   = "Require"
-intent = "Business declares initiatives; product refines them."
+intent = "Business declares product; Product domain refines."
 between = ["business", "products"]
 
 [bpt.stream.develop]
@@ -184,6 +197,3 @@ between = ["business", "products"]
 [bpt.domain_lead]
 definition = "Role each domain appoints, responsible for architecture decisions within the domain scope. Co-owns BPT cycle governance."
 
-[bpt.factory]
-definition = "DBJ Product Factory. The organisation adopting the DBJ Method, seen as a factory of Products: N production lines, one per Product. Each production line is one BPT (see bpt.one_bpt)."
-scaling    = "Horizontal: one BPT is added per Product. Vertical scaling, per domain, is defined in bpt.one_bpt."
