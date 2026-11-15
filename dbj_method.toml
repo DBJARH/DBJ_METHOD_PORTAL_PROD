@@ -48,7 +48,7 @@ elements   = [
 ]
 element_assessment    = "Each element scored independently on Level 0 (L0) to Level 5 (L5)."
 starting               = "L3"
-required              = "L5 across all five elements. An engagement may start at L3 by negotiation."
+required              = "L5 across all five elements is the required target. L3 is the required starting level."
 entry_ticket          = "Personal proof of a passed DBJ CMM \"L exam\". One ticket, not one per level. No one works inside BPT, or on a DBJ ADM wheel, without it."
 organisation_maturity = "Aiming for L5. Sum of the domain teams' maturities; a team's maturity is the sum of its people's maturities."
 
